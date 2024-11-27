@@ -1,0 +1,189 @@
+.content {
+    max-width: 1300px;
+    margin: auto;
+    width: 80%;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: beige;
+}
+
+aside {
+    flex-basis: 20%;
+}
+
+main img {
+    width: 60%;
+    border: 2px solid black;
+}
+
+.grid {
+    display: flex;
+}
+
+.list {
+    border: 2px solid black;
+    padding: 5px;
+    font-family: Georgia;
+    background-color: blanchedalmond;
+}
+
+.text {
+    font-style: italic;
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 330px
+}
+
+header {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+form {
+    border-width: 5px dashed #ccc;
+    padding: 5px;
+}
+
+textarea {
+    width: 50%;
+    display: block;
+}
+
+fieldset {
+    border: none;
+}
+
+select,
+option,
+label,
+legend,
+input[type=submit] {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    height: 2em;
+    width: 2em;
+}
+
+select,
+option,
+input[type="text"],
+input[type="email"] {
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+
+.grid2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: beige;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 100%;
+
+}
+
+.text2 {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+table {
+    width: 88%;
+    margin: auto;
+    text-align: center;
+}
+
+table caption {
+    text-align: left;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+table h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li ul {
+    width: 200px;
+    position: absolute;
+    z-index: 999;
+    text-align: left;
+    background-color: #890417;
+    box-shadow: 0 0 5px #800d29;
+}
+
+nav ul li ul li a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li ul li:hover a:hover {
+    color: #890417;
+    background-color: #f7e7d9;
+}
+
+nav ul li ul {
+    display: none;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+.grid-title {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.grid-title h1 {
+    font-size: 2.5em;   
+    color: black; 
+}
